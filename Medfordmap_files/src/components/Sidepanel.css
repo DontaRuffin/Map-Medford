@@ -1,0 +1,111 @@
+#sidebar .home {
+    height: 40px;
+    width: 40px;
+}
+#sidebar .info {
+    height: 40px;
+    width: 40px;
+}
+#sidebar .comments {
+    height: 40px;
+    width: 40px;
+}
+
+#sidebar .sidebar-tabs li.active {
+    background-color: lightgray;
+}
+
+#sidebar #home,
+#sidebar #infoTab {
+    font-family: "Rational Display Light";
+}
+
+#sidebar .comment {
+    font-family: "Rational Display Light";
+}
+
+#sidebar .close {
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+#sidebar h1.sidebar-header {
+    font-family: "Rational Display Medium";
+    background-color: #53A6A6;
+    font-weight: 500;
+}
+
+#sidebar img.textIcon {
+    width: 60px;
+    height: 60px;
+    padding-right: 10px;
+}
+#sidebar img.inTextIcon {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -5px;
+}
+#sidebar img.inTextIcon.place {
+    padding-right: 5px;
+}
+div.infoType {
+    display: flex;
+    flex-direction: row;
+}
+div.infoType img.textIcon {
+    display: flex;
+}
+
+.sidebar-pane .active {
+    background-color: #341334;
+}
+
+#sidebar .sideComment {
+    padding: 5px;
+    padding-left: 10px;
+    padding-top: 6px;
+    border-bottom: 1px solid #341334;
+}
+
+#sidebar .commentType {
+    font-size: 16px;
+}
+
+#sidebar div.sideComment:hover {
+    cursor: pointer;
+    background-color: hsl(20, 8%, 96%);
+}
+
+#sidebar div.comment {
+    font-size: 12px;
+}
+#sidebar div.comment .commentBy {
+    font-size: 12px;
+}
+#sidebar div.comment .commentAbout,
+#sidebar div.comment .commentDate {
+    font-size: 11px;
+}
+
+#sidebar div.newSideComment {
+    border-bottom: 1px solid #00aad5;
+}
+
+#home,
+#commentsTab {
+    border-left: 1px solid rgb(228, 228, 228);
+}
+
+h3.commentType {
+    margin-top: 0;
+}
+.commentType img.icon {
+    height: 45px;
+    width: 45px;
+    margin-bottom: -15px;
+}
+button.button--primary.getStarted {
+    background-color: #317479;
+    padding: 10px;
+}
